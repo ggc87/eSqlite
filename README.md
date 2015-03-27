@@ -5,8 +5,8 @@ http://libeccio.di.unisa.it/SecureQuery/
 ____
 
 
-Secure Query
-Introduction
+#Secure Query
+#Introduction
 eSqlite is a cryptographic library that can be used to encrypt tables so that the owner of the table can release tokens to allow third parties to perform queries on the encrypted table. An eSqlite program try to have the same structure as an sqlite program, so users can perform SQL query on encrypted data. SQL query are used in the creation of tokens as well.
 In the example folder it is possible to find some example program which represent the typical workflow:
 
@@ -53,7 +53,7 @@ Consider the following simple table:
     			NAME:Luke	
     		
 
-eSqlite API
+#eSqlite API
 
         int eSqlite3_open(       /* Open databse */ 
           const char *filename,   /* Database filename (UTF-8) */
